@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Jacob X Hack Club</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div id="hackclub-flag-topleft">
+      <a href="https://hackclub.com/"
+        ><img
+          style="
+            position: absolute;
+            top: 0;
+            left: 10px;
+            border: 0;
+            width: 256px;
+            z-index: 999;
+          "
+          src="https://assets.hackclub.com/flag-orpheus-top.svg"
+          alt="Hack Club"
+      /></a>
+    </div>
+    <div id="main">
+      <h1>Jacob X Hack Club</h1>
+      <img
+        src="https://assets.hackclub.com/icon-rounded.svg"
+        alt="Hack Club Logo for the 'X' bit iykwim"
+      />
+      <p>
+        Let <strong>me</strong>, explain to <strong>you</strong>, what I do at
+        Hack Club!
+      </p>
+      <a href="/overview" class="button">Open the Overview</a>
+    </div>
+  </body>
+</html>
