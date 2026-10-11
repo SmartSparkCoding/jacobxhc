@@ -52,6 +52,16 @@ body {
   margin-bottom: 10px; /* so that 20px total between cards when there is more than one ig?? */
 }
 
+.project-box-yay a {
+  border: 1px solid #989494;
+  border-radius: 8px;
+  padding: 2px;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  background: #e7e7e7;
+}
+
 .overview {
   text-align: center;
 }
