@@ -1,3 +1,39 @@
 body {
-  background: #1a1919;
+  background: #e7e7e7;
+}
+
+.main {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main-sub {
+  background: hsl(0, 0%, 78%);
+  border: 2px solid #989494;
+  border-radius: 8px;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+.main-sub a {
+  border: 1px solid #989494;
+  border-radius: 8px;
+  padding: 2px;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  background: #e7e7e7;
+}
+
+.main-sub a:hover {
+  background: #cdcccc;
+}
+
+#hc-image {
+  width: 100px;
+  height: auto;
 }
