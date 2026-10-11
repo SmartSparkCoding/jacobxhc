@@ -41,3 +41,33 @@ body {
   width: 100px;
   height: auto;
 }
+
+.project-box-yay {
+  background: hsl(0, 0%, 78%);
+  border: 2px solid #989494;
+  border-radius: 8px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 10px; /* so that 20px total between cards when there is more than one ig?? */
+}
+
+.overview {
+  text-align: center;
+}
+
+.overview a {
+  border: 1px solid #989494;
+  border-radius: 8px;
+  padding: 2px;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  background: #e7e7e7;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.overview a:hover {
+  background: #cdcccc;
+}

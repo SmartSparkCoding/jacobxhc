@@ -14,17 +14,17 @@
     />
   </head>
   <body>
-    <div id="main">
-      <h1>Jacob X Hack Club</h1>
-      <img
-        src="https://assets.hackclub.com/icon-rounded.svg"
-        alt="Hack Club Logo for the 'X' bit iykwim"
-      />
-      <p>
-        Let <strong>me</strong>, explain to <strong>you</strong>, what I do at
-        Hack Club!
-      </p>
-      <a href="/overview" class="button">Open the Overview</a>
+    <div class="overview">
+      <h1>Overview of My Stuff at Hack Club!</h1>
+      <a style="text-align: right" href="/">Back To Home</a>
+      <a style="text-align: right" href="/what">What's What?</a>
     </div>
+    {% for project in projects %}
+    <div class="project-box-yay">
+      <h2>{{ project.name }}</h2>
+      <p>{{ project.description }}</p>
+      <a href="{{ project.url }}">View Project</a>
+    </div>
+    {% endfor %}
   </body>
 </html>
